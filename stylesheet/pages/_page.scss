@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #CBDEDE;
+    color: #607C7E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardA{
+    height: 20vh;
+    width: 70vw;
+}
+.cardB{
+    position: relative;
+    height: 60vh;
+    width: 70vw;
+
+    .frame{
+        width: max-content;
+        position: relative;
+        .input{
+            width: 20%;
+        }
+    }
+}
